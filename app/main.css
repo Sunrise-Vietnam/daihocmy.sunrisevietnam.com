@@ -1,0 +1,247 @@
+/*-----fonts-----*/
+@font-face {
+    font-family: "myriad";
+    src: url("./font-myriadpro/myriadpro-regular.otf")
+}
+@font-face {
+    font-family: "myriadbold";
+    src: url("font-myriadpro/myriadpro-bold.otf")
+}
+
+/*@import url("~./font-myriadpro");*/
+
+
+body {
+    font-family: "myriad" !important;
+}
+
+.span-38{
+    font-size: 38px;
+}
+
+.img-center{
+    margin: 0 auto !important;
+}
+
+.ablue{
+    color: #171647;
+}
+.abluebg{
+    background-color: #171647;
+}
+.dblue{
+    color: #06162f;
+}
+.dbluebg{
+    background-color: #06162f;
+}
+.dred,.dred:hover,.dred:focus,.dred:active{
+    color: #e4121a;
+}
+.redbg{
+    background-color: #e4121a;
+}
+.white:hover,.white:focus,.white:active,#hinhanh,#nganhhoc,footer,.white,.close,.close:hover{
+    color: white;
+}
+.whitebg{
+    background-color: white;
+}
+.gray{
+    color: #363636;
+}
+.bold{
+    font-family: "myriadbold";
+}
+/*-----common-----*/
+.intro>.row>.col-xs-6{
+    border-left: solid 1px #363636;
+}
+.intro>.row>.col-xs-6:first-child{
+    border: none;
+}
+#hinhanh,footer{
+background-image: url("./photos/bgblue.png");
+}
+.colorbar-top{
+    height: 20px;
+    border-top: solid 4px;
+    border-bottom: solid 8px;
+    margin-bottom: 2px;
+}
+.colorbar-bottom{
+    height: 20px;
+    border-bottom: solid 4px;
+    border-top: solid 8px;
+    margin-top: 2px;
+}
+.clbar-red{
+    border-color:  #e4121a;
+}
+.clbar-dblue{
+    border-color: #06162f;
+}
+/*------button-----*/
+.btnreg{
+    padding:1px 30px 1px 30px;
+    border-radius: 7px;
+}
+.btnreg:hover{
+    font-family: "myriadbold";
+}
+.btn-default,.btn-default:hover,.btn-default.focus,.btn-default:focus,.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default{
+    background: none;
+    border-radius: 0;
+}
+.btn-default:hover,.btn-default.focus,.btn-default:focus,.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default{
+    background-color: white;
+}
+/*-----form-----*/
+.form-control{
+    border-radius: 0px;
+}
+.input-group{
+    width: 100%;
+}
+/*-----header-----*/
+#header>.row>.col-xs-12{
+    padding: 0;
+}
+/*-----intro-----*/
+#smalltbl>tr>td{
+    border-radius: 5px;
+}
+.colintro{
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+    border-radius: 8px;
+}
+
+.colintro-bg {
+    background-image: url("./photos/bgnganhhoc.png");
+    color: white;
+}
+
+.colintro:first-child{
+    border: none;
+}
+/*-----hinhanh-----*/
+.imgborder{
+    border: solid 4px white;
+    border-radius: 2px;
+    margin: 20px auto 20px auto;
+}
+/*-----yeucau-----*/
+#yeucau{
+    background-image: url("./photos/bgrequire.png");
+    background-repeat: repeat;
+}
+.media-left img{
+    margin-right: 20px;
+}
+/*-----nganhhoc-----*/
+#nganhhoc{
+    background-image: url("./photos/bgnganhhoc.png");
+    background-repeat: repeat;
+}
+/*-----footer-----*/
+.logoft{
+    z-index: 0;
+    position: absolute;
+}
+/*-----thankyou-----*/
+@media (max-width: 767px) {
+    .tk-header .bigimg {
+        display: none !important;    }
+    .tk-footer .col-xs-12 img {
+        margin: 0 auto 10px auto;    }
+}
+@media (min-width: 768px) {
+    .tk-header .smallimg {
+        display: none;    }
+}
+.tk-footer .col-md-6, .tk-footer .col-sm-6, .tk-footer .col-xs-12 {
+    text-align: center;
+    padding: 0 30px 0 30px;}
+/*-----seprate-----*/
+@media (max-width: 767px ) {
+    h4{
+        font-size: 25px !important;
+    }
+    h5{
+        font-size: 20px !important;
+    }
+    h6{
+        font-size: 15px !important;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    footer h6{
+        font-size: 13px !important;
+    }
+    footer p{
+        font-size: 12px !important;
+    }
+    #rightreq{
+        padding-top: 20px !important;
+    }
+    .smallspace{
+        height: 12px !important;
+    }
+    .space{
+        height: 30px !important;
+    }
+    .colintro{
+        text-align: center !important;
+    }
+    .media-left img{
+        width: 30px;
+    }
+    .marginbottom{
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 768px){
+    h4{
+        font-size: 30px !important;
+    }
+    h5{
+        font-size: 25px !important;
+    }
+    h6{
+        font-size: 18px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    footer h6{
+        font-size: 16px !important;
+    }
+    footer p{
+        font-size: 14px !important;
+    }
+    .smallspace{
+        height: 20px !important;
+    }
+    .space{
+        height: 50px !important;
+    }
+    /*-----header-----*/
+    .decobar{
+        background-image: url("./photos/decobar.png");
+        background-repeat: repeat-x;
+        height: 61px;
+    }
+    #rightreq{
+        border-left: solid 1px #06162f;
+    }
+    .colintro{
+        border-left: solid 1px #bebebe;
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "MYRIAPRO",
+  "files" : [
+    {
+      "weight" : 100,
+      "file" : "./myriadpro-regular.otf"
+    },
+    {
+      "weight" : 400,
+      "file" : "./myriadpro-bold.otf"
+    }
+  ]
+}
